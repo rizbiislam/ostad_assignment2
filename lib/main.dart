@@ -44,7 +44,12 @@ class GreetingScreen extends StatelessWidget {
            //   'https://flutter.dev/images/flutter-logo-sharing.png',
           //    height: 100,
            // ),
-            Image.asset('images/icon.png'),
+            Image.asset(
+              'images/icon.png',
+              width: 150,
+              height: 150,
+              fit: BoxFit.cover,
+            ),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
