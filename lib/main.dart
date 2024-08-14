@@ -39,13 +39,12 @@ class GreetingScreen extends StatelessWidget {
                 fontSize: 20,
               ),
             ),
-            SizedBox(height: 20),
-            Image.network(
-              'https://flutter.dev/images/flutter-logo-sharing.png',
-              height: 100,
-            ),
             SizedBox(height: 40),
-            Image.asset('assets/flutter_icon.jpg'),
+           // Image.network(
+           //   'https://flutter.dev/images/flutter-logo-sharing.png',
+          //    height: 100,
+           // ),
+            Image.asset('images/icon.png'),
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
@@ -55,6 +54,7 @@ class GreetingScreen extends StatelessWidget {
               child: Text('Press me'),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.green,
+                foregroundColor: Colors.white,
               ),
             ),
           ],
